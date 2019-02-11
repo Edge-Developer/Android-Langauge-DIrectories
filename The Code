@@ -1,0 +1,5 @@
+
+final Locale[] availableLocales=Locale.getAvailableLocales();
+for(final Locale locale : availableLocales)
+  Log.d("Applog",":"+locale.getDisplayName()+":"+locale.getLanguage()+":"
+    +locale.getCountry()+":values-"+locale.toString().replace("_","-r"));
